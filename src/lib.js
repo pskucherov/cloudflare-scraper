@@ -1,5 +1,5 @@
 import { CookieJar } from 'tough-cookie';
-import got from 'got';
+import { gotScraping as got } from 'got-scraping';
 import { convertCookieToTough } from './utils.js';
 import { Browser } from './Browser.js';
 
